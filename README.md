@@ -9,9 +9,9 @@ Implementation of degree saturation algorithm for graph coloring problem. Two mo
 
 - `edges` - list of tuples (int, int); represent graph's edges; 
 
-- `blocksize1` - (optional) int, default is 100; parameter for storing binary data associated with vertices;
+- `blocksize1` - (optional) int, default is 100; parameter for storing binary data associated with vertices, for more  details see implementation;
 
-- `blocksize2` - (optional) int, default is 100; parameter for storing binary data associated with colors;
+- `blocksize2` - (optional) int, default is 100; parameter for storing binary data associated with color, for more details see implementations;
 
 - `mode` - (optional) string, available modes are `"greedy"` and `"bnb"`, default is `"greedy"`; defines version of algorithm to run
 
