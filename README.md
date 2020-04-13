@@ -17,7 +17,7 @@ Implementation of degree saturation algorithm for graph coloring problem. Two mo
 
 - `timeout` - (optional) int or None, default is None; defines limit for algorithm's work time in seconds, when exceeded best solution found so far will be returned or None; 
 
-- `improve` - (optional) int or None, default is None; optional parameter for `bnb` mode, if passed to the function then algorithm will stop working when solution with less or equal colors then `G - improve` is found where `G` stands for solution found by greedy approach; if solution with this property is not found, best found solution will be returned.  
+- `improve` - (optional) int or None, default is None; optional parameter for `bnb` mode, if passed to the function then algorithm will stop working when solution with less or equal colors than `G - improve` is found where `G` stands for solution found by greedy approach; if solution with this property is not found, best found solution will be returned.  
 
 ## Returns
 
