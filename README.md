@@ -11,7 +11,7 @@ Implementation of degree saturation algorithm for graph coloring problem. Two mo
 
 - `blocksize1` - (optional) int, default is 100; parameter for storing binary data associated with vertices, for more  details see implementation;
 
-- `blocksize2` - (optional) int, default is 100; parameter for storing binary data associated with colors, for more details see implementations;
+- `blocksize2` - (optional) int, default is 100; parameter for storing binary data associated with colors, for more details see implementation;
 
 - `mode` - (optional) string, available modes are `"greedy"` and `"bnb"`, default is `"greedy"`; defines version of algorithm to run
 
